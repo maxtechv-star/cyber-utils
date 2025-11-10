@@ -1,13 +1,13 @@
 
 {
-  "name": "@verondev/cyber-utils",
+  "name": "cyber-utils",
   "version": "1.0.0",
   "description": "Comprehensive utility library for WhatsApp bot development with media processing, store management, and plugin system",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:private": "npm publish --access restricted"
+    "publish:public": "npm publish --access public"
   },
   "keywords": [
     "whatsapp",
@@ -19,16 +19,19 @@
     "image-processing",
     "plugin-system",
     "lowdb",
-    "store"
+    "store",
+    "converter",
+    "scraper",
+    "exif"
   ],
   "author": "VeronDev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxtechv-star/cyber-utils.git"
+    "url": "https://github.com/maxtechv-star/cyber-utils.git"
   },
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
