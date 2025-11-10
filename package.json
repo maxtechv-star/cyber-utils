@@ -1,6 +1,6 @@
 
 {
-  "name": "cyber-utils",
+  "name": "cyberx-utils",
   "version": "2.5.6",
   "description": "Comprehensive utility library for WhatsApp bot development with media processing, store management, and plugin system",
   "main": "index.js",
