@@ -19,17 +19,18 @@
     "image-processing",
     "plugin-system",
     "lowdb",
-    "store",
-    "converter",
-    "scraper",
-    "exif"
+    "store"
   ],
   "author": "VeronDev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxtechv-star/utils.git"
+    "url": "git+https://github.com/VeronDev/cyber-utils.git"
   },
+  "bugs": {
+    "url": "https://github.com/VeronDev/cyber-utils/issues"
+  },
+  "homepage": "https://github.com/VeronDev/cyber-utils#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
