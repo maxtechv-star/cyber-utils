@@ -12,7 +12,6 @@ module.exports = {
   makeInMemoryStore: lib.store.makeInMemoryStore,
   ObjectRepository: lib.store.ObjectRepository,
   makeOrderedDictionary: lib.store.makeOrderedDictionary,
-  lowdb: lib.lowdb,
   utils: lib.myfunc,
   colors: lib.color,
   media: {
@@ -24,7 +23,6 @@ module.exports = {
   scrapers: lib.scraper,
   events: lib.event,
   store: lib.store,
-  db: lib.lowdb,
   convertToAudio: lib.converter.toAudio,
   convertToPTT: lib.converter.toPTT,
   convertToVideo: lib.converter.toVideo,
@@ -42,7 +40,5 @@ module.exports = {
   getFormattedTime: lib.myfunc.getTime,
   getGroupAdmins: lib.myfunc.getGroupAdmins,
   parseMentions: lib.myfunc.parseMention,
-  createStore: lib.store.makeInMemoryStore,
-  createDatabase: lib.lowdb.Low,
-  createSyncDatabase: lib.lowdb.LowSync
+  createStore: lib.store.makeInMemoryStore
 };

@@ -1,8 +1,7 @@
-
 {
   "name": "cyberx-utils",
-  "version": "2.5.9",
-  "description": "Comprehensive utility library for WhatsApp bot development with media processing, store management, and plugin system",
+  "version": "2.6.0",
+  "description": "Comprehensive utility library for WhatsApp bot development with media processing, store management",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -18,7 +17,6 @@
     "sticker",
     "image-processing",
     "plugin-system",
-    "lowdb",
     "store"
   ],
   "author": "VeronDev",
@@ -27,10 +25,6 @@
     "type": "git",
     "url": "git+https://github.com/maxtechv-star/utils.git"
   },
-  "bugs": {
-    "url": "https://github.com/maxtechv-star/utils/issues"
-  },
-  "homepage": "https://github.com/maxtechv-star/utils#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -64,7 +58,6 @@
   },
   "files": [
     "index.js",
-    "lib/",
-    "README.md"
+    "lib/"
   ]
 }
